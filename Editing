@@ -106,3 +106,10 @@ local Slider = MainTab:CreateSlider({
 
 local ScriptTab = Window:CreateTab("👻SCRIPT👻", nil) -- Title, Image
 local scriptSection = scriptTab:CreateSection("Script")
+
+local Button1 = ScriptTab:CreateButton({
+   Name = "Starter Island",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+        --Script1
+   end,
