@@ -105,10 +105,8 @@ local Slider = MainTab:CreateSlider({
 })
 
 local ScriptTab = Window:CreateTab("👻SCRIPT👻", nil) -- Title, Image
-
-
 local Button = Script:CreateButton({
-   Name = "🔥Best Script🔥",
+   Name = "BestScript",
    Callback = function()
    local TweenService = game:GetService('TweenService')
 local object = cre
