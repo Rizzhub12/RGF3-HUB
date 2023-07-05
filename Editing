@@ -99,10 +99,17 @@ local Slider = MainTab:CreateSlider({
    Suffix = "Speed",
    CurrentValue = 16,
    Flag = "sliderjp", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Value)
+       Callback = function(Value)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
    end,
 })
 
 local ScriptTab = Window:CreateTab("👻SCRIPT👻", nil) -- Title, Image
 local scriptSection = scriptTab:CreateSection("Script")
+
+local Button = Script:CreateButton({
+   Name = "🔥Best Script🔥",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/REWzaKunGz1/premium/main/PadoHub'))()
+   end,
+})
