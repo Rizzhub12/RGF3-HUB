@@ -103,3 +103,6 @@ local Slider = MainTab:CreateSlider({
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Value)
    end,
 })
+
+local ScriptTab = Window:CreateTab("👻SCRIPT👻", nil) -- Title, Image
+local scriptSection = scriptTab:CreateSection("Script")
