@@ -134,7 +134,7 @@ end)
 
 local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
 
-local win = DiscordLib:Window("=======KimaHub======")
+local win = DiscordLib:Window("=======RGF3 HUB======")
 
 local serv = win:Server("Main", "http://www.roblox.com/asset/?id=4483345998")
 
